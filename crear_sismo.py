@@ -98,7 +98,7 @@ def mensaje():
     hora = entry_hora.get() 
     latitud = entry_latitud.get() 
     longitud = entry_longitud.get() 
-    depth = 10 
+    depth = '10.0' 
     mag = entry_coda.get() 
     i_d = fecha+hora[:-2]
     ciudades = fc.get_ciudades(path_ciudades)
